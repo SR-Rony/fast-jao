@@ -248,14 +248,11 @@
         top: 111px;
     }
     footer {
-       height: 1300px;
+       height: 1200px;
     }
     footer .overlay .services{
-        padding-top: 0rem !important;
-        padding-bottom: 0rem !important;
-        margin-top: 0rem !important;
-        margin-bottom: 0rem !important;
-        margin-left: 0 !important;
+        text-align: left !important;
+        
     }
     #about .abs {
         display: none;
@@ -281,7 +278,7 @@
         top: 0;
     }
     #chackout .chackout-slider .next {
-        display: none;
+        display: none !important;
     }
     #chackout .chackout-slider .prev {
         display: none;
@@ -1255,15 +1252,6 @@ footer .overlay .services ul {
         height: 47px;
         line-height: 47px;
     }
-    /* footer .overlay .link {
-        text-align: center;
-      } */
-      /* footer .overlay .news {
-        text-align: center;
-      } */
-      /* footer .overlay .news h3::after {
-        left: 120px;
-    } */
     footer .overlay .services {
         text-align:left;
       }

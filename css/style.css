@@ -864,20 +864,20 @@ delivery-packages part start
 }
 #delivery-packages .form input{
     width: 90%;
-    height: 45px;
     margin: 20px;
     font-size: 20px;
     border-radius: 5px;
     border: 1px solid gray;
+    padding: 5px 10px;
 }
 #delivery-packages .form select{
     width: 90%;
-    height: 60px;
     font-size: 20px;
     margin-left: 20px;
     border: 1px solid gray;
     margin-top: 10px;
     border-radius: 5px;
+    padding: 5px 10px;
 }
 #delivery-packages .form button{
     font-size: 14px;
@@ -1503,10 +1503,6 @@ chooes part start
     text-align: right;
     margin-right: auto;
 }
-#news .item .text hr{
-}
-#news .item .text{
-}
 #news .item .text i{
     color: #FF4800;
     margin-left: 88px;
@@ -1631,9 +1627,6 @@ footer .overlay .link ul{
 footer .overlay .news{
     text-align: left;
 }
-
-
-
 footer .overlay .news h3{
     font-size: 18px;
     font-weight: 600;
@@ -1641,9 +1634,8 @@ footer .overlay .news h3{
     line-height: 24px;
     color: #fff;
     position: relative;
-    
-    
 }
+
 footer .overlay .news h3::after{
     content: "";
     position: absolute;
